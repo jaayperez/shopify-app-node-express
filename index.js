@@ -10,7 +10,7 @@ const request = require('request-promise');
 const apiKey = process.env.SHOPIFY_API_KEY;
 const apiSecret = process.env.SHOPIFY_API_SECRET;
 const scopes = 'read_products';
-const forwardingAddress = "https://21033db6.ngrok.io"; // Replace this with your HTTPS Forwarding address
+const forwardingAddress = "https://c77a2050.ngrok.io"; // Replace this with your HTTPS Forwarding address
 
 app.get('/', (req, res) => {
   res.send('Hello World!');
